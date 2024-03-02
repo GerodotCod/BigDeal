@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  BigDeal:
+    image: transloadit/companion
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /app/node_modules
+      - /mnt/BigDeal-server-data:/mnt/BigDeal-server-data
+    ports:
+      - '3020:3020'
+    env_file:
+      - .env
