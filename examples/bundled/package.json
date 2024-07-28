@@ -1,0 +1,22 @@
+{
+  "name": "@BigDeal-example/bundled",
+  "version": "0.0.0",
+  "dependencies": {
+    "@BigDeal/core": "workspace:*",
+    "@BigDeal/dashboard": "workspace:*",
+    "@BigDeal/google-drive": "workspace:*",
+    "@BigDeal/instagram": "workspace:*",
+    "@BigDeal/tus": "workspace:*",
+    "@BigDeal/url": "workspace:*",
+    "@BigDeal/webcam": "workspace:*"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  }
+}
