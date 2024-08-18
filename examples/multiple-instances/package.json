@@ -1,0 +1,17 @@
+{
+  "name": "@BigDeal-example/multiple-instances",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@BigDeal/core": "workspace:*",
+    "@BigDeal/dashboard": "workspace:*",
+    "@BigDeal/golden-retriever": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
