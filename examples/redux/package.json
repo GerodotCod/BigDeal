@@ -1,0 +1,21 @@
+{
+  "name": "@BigDeal-example/redux",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "@BigDeal/core": "workspace:*",
+    "@BigDeal/dashboard": "workspace:*",
+    "@BigDeal/store-redux": "workspace:*",
+    "@BigDeal/tus": "workspace:*",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
