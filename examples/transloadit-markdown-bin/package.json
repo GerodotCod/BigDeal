@@ -1,0 +1,22 @@
+{
+  "name": "@BigDeal-example/transloadit-markdown-bin",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@BigDeal/core": "workspace:*",
+    "@BigDeal/dashboard": "workspace:*",
+    "@BigDeal/drop-target": "workspace:*",
+    "@BigDeal/image-editor": "workspace:*",
+    "@BigDeal/remote-sources": "workspace:*",
+    "@BigDeal/transloadit": "workspace:*",
+    "@BigDeal/webcam": "workspace:*",
+    "marked": "^4.0.18"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
