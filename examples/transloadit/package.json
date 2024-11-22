@@ -1,0 +1,28 @@
+{
+  "name": "@BigDeal-example/transloadit",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@BigDeal/core": "workspace:*",
+    "@BigDeal/dashboard": "workspace:*",
+    "@BigDeal/drop-target": "workspace:*",
+    "@BigDeal/form": "workspace:*",
+    "@BigDeal/image-editor": "workspace:*",
+    "@BigDeal/progress-bar": "workspace:*",
+    "@BigDeal/remote-sources": "workspace:*",
+    "@BigDeal/transloadit": "workspace:*",
+    "@BigDeal/webcam": "workspace:*",
+    "express": "^4.16.4",
+    "he": "^1.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "start:server": "node server.js",
+    "start:client": "vite",
+    "start": "npm-run-all --parallel start:server start:client"
+  }
+}
