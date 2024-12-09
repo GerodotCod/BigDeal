@@ -1,0 +1,23 @@
+{
+  "name": "@BigDeal-example/vue3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@BigDeal/core": "workspace:*",
+    "@BigDeal/dashboard": "workspace:*",
+    "@BigDeal/drag-drop": "workspace:*",
+    "@BigDeal/progress-bar": "workspace:*",
+    "@BigDeal/tus": "workspace:*",
+    "@BigDeal/vue": "workspace:*",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}
